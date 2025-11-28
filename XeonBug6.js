@@ -4,7 +4,7 @@
 //Instagram: mikael_jordan
 //Telegram: t.me/darklimule
 //GitHub: @Limule3650
-//WhatsApp: +237693538738
+//WhatsApp: +242069669959
 //want more free bot scripts? subscribe to my youtube channel: https://www.youtube.com/@Darklimule
 
 const { default: makeWaSocket, useMultiFileAuthState, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@whiskeysockets/baileys')
@@ -2535,4 +2535,5 @@ if (e.includes("Connection Closed")) return
 if (e.includes("Timed Out")) return
 if (e.includes("Value not found")) return
 console.log('Caught exception: ', err)
+
 })
